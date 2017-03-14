@@ -1,0 +1,9 @@
+﻿
+extends layout
+block content
+  h1= title
+  p  Use #{title} by pasting your link in the textbox and hit shorten 
+  input(id="url-box" class="form-control")
+  button(class="btn-shorten" type="button") shorten
+  div(id="short")
+  
